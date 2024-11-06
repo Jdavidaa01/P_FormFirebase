@@ -1,0 +1,40 @@
+*{
+    
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color:rgb(47, 47, 146);
+    color: whitesmoke;
+}
+formGroup{
+    margin: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    margin: 10px 15px 0px 0px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}  
