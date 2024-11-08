@@ -7,23 +7,23 @@
     <title>Form with Fire Base</title>
 </head>
 <body>
-    <form action="" id="form">
-        <h2 id="title"></h2>
+    <form id="form">
+        <h2 id="title">Formulario de Registro</h2>
         <div class="formGroup">
             <label for="name">Name :</label>
             <input type="text" name="name" id="name">
-            <div class="error" id="Error"></div>
+            <div class="error-message" id="nameError"></div>
         </div>
             
         <div class="formGroup">
             <label for="email">Email: </label>
-            <input type="email" name="email" id="email">
-            <div class="error" id="Erroremail"></div>
+            <input type="email" name="email" id="mail">
+            <div class="error-message" id="emailError"></div>
         </div>
         <div class="formGroup">
             <label for="password">Password: </label>
             <input type="password" name="password" id="password">
-            <div class="error" id="Errorpass"></div>
+            <div class="error-message" id="passError"></div>
         </div>
         <button type="submit">Send</button>
     </form>
